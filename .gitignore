@@ -1,0 +1,15 @@
+# ignore files in the "deprecated" directory
+/deprecated/**
+
+# ignore files in the ".vscode" directory (visual studio code settings)
+/.vscode/**
+
+# ignore object files
+*.o
+
+# ignore any compiled binary executable files
+*.elf
+*.hex
+
+# ignore any memory map files produced by the compiler
+*.map
